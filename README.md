@@ -12,7 +12,7 @@ All language preprocess comes from `xlsr-fine-tuning-week`
 Data prepare and Model training script modified from https://github.com/maxidl/wav2vec2   
 Thank you all participants for the ideas/experiments/opinions to make it happen.   
 
-## Evaluation Result
+## Result
 | Common Voice Languages | Num. of data | Hour   | CER   |
 |------------------------|--------------|--------|-------|
 | ar                     | 21744        | 81.5   | 31.27 |
