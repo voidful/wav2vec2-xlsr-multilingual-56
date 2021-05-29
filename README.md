@@ -7,6 +7,11 @@ When using this model, make sure that your speech input is sampled at 16kHz.
 
 For usage: [https://huggingface.co/voidful/wav2vec2-xlsr-multilingual-56](https://huggingface.co/voidful/wav2vec2-xlsr-multilingual-56)
 
+## THX
+All language preprocess comes from `xlsr-fine-tuning-week`  
+Data prepare and Model training script modified from https://github.com/maxidl/wav2vec2   
+Thank you all participants for the ideas/experiments/opinions to make it happen.   
+
 ## Evaluation Result
 | Common Voice Languages | Num. of data | Hour   | CER   |
 |------------------------|--------------|--------|-------|
@@ -67,15 +72,13 @@ For usage: [https://huggingface.co/voidful/wav2vec2-xlsr-multilingual-56](https:
 | zh-HK                  | 12678        | 92.1   | 18.82 |
 | zh-TW                  | 6402         | 56.6   | 29.08 |
 
-## Training
-Data prepare and Model training script modified from https://github.com/maxidl/wav2vec2
 
 ## Data preprocessing
 
 1. normalization:  
 All normalization process packed in this repo: https://github.com/voidful/asrp  
 For normalization in each language: https://github.com/voidful/asrp/blob/main/asrp/preprocessing.py  
-The normalization function reference to https://huggingface.co/models?filter=xlsr-fine-tuning-week
+The normalization function reference to https://huggingface.co/models?filter=xlsr-fine-tuning-week  
 Welcome to modify and contribute, to make normalization results better.
    
 2. get vocabulary list
